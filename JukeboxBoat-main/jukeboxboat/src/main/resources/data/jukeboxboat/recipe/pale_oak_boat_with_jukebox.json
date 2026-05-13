@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "jukebox_boat",
+  "ingredients": [
+    "minecraft:pale_oak_boat",
+    "minecraft:jukebox"
+  ],
+  "result": {
+    "id": "minecraft:pale_oak_boat",
+    "count": 1
+  }
+}

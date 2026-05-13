@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "jukeboxboat",
+  "version": "1.5",
+  "name": "JukeboxBoat",
+  "description": "Server-side mod that adds Boats with Jukeboxes to the game.",
+  "authors": ["KaseToatz"],
+  "contact": {
+    "email": "kasetoatz@kasetoatz.com",
+    "homepage": "https://modrinth.com/mod/jukeboxboat",
+    "issues": "https://git.kasetoatz.com/KaseToatz/JukeboxBoat/issues",
+    "sources": "https://git.kasetoatz.com/KaseToatz/JukeboxBoat"
+  },
+  "license": "MIT",
+  "icon": "logo.png",
+  "environment": "*",
+  "mixins": [
+    "jukeboxboat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "minecraft": "26.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "jukebox_boat",
+  "ingredients": [
+    "minecraft:bamboo_raft",
+    "minecraft:jukebox"
+  ],
+  "result": {
+    "id": "minecraft:bamboo_raft",
+    "count": 1
+  }
+}

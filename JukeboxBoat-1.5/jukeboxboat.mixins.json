@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.kasetoatz.jukeboxboat.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "AbstractBoatMixin",
+    "ArmorStandMixin",
+    "BlockDisplayMixin",
+    "BoatItemMixin",
+    "DisplayMixin",
+    "ShapelessRecipeMixin",
+    "VehicleEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
